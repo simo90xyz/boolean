@@ -21,37 +21,86 @@
         .box1 {
             display: flex;
             justify-content: center;
+            margin-top: 3vh;
         }
 
 
         figure img  {
                     width: 250px;
+                    margin-left: 20vh;
               
                     }
 
         nav {
-              margin-top: 20px; 
-              background-color: green;
-              margin: 90px;
-              height: 30px;
+         
+              background-color: rgb(17, 199, 17);
+              margin: 40px;
+              height: 40px;
               display: flex;
-             justify-content: space-around;
-          
-           }
+              justify-content: space-around; 
+            }
+
+        h1 {
+            font-size: 3rem;
+            color: rgb(21, 241, 21);
+            font-weight: bold;
+        }    
+
+
 
         button {
-            margin-top: 5px;
+            margin-top: 10px;
+            text-transform: capitalize;
+            height: 20px;
         }
 
+        button:hover {
+            background-color: rgb(241, 66, 66);
+        }
       
 
           section {
             width: 1200px;
             height: 800px;
             border: solid 1px black;
-       
+            background-color: transparent;
+            border-radius: 2%;
         }
 
+
+        .container { margin-left: 40px ;
+
+
+        }
+
+        .java1  {
+            width: 200px;
+            height: 30px;
+            background-color: rgb(211, 157, 58);
+            border-radius: 5px;
+        }
+
+
+        
+        .java2 {
+            width: 300px;
+            height: 30px;
+            background-color: rgb(69, 66, 211);
+            border-radius: 5px;
+        }
+        
+        .java3  {
+            width: 100px;
+            height: 30px;
+            background-color: rgb(218, 96, 116);
+            border-radius: 5px;
+        }
+
+        label {
+            font-size: 25px;
+            font-weight: bold;
+
+        }
 
 
        
