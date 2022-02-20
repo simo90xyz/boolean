@@ -49,11 +49,19 @@
 
 
         button {
-            margin-top: 10px;
+            margin-top: 8px;
             text-transform: capitalize;
-            height: 20px;
+            height: 25px;
+            background-color: black;
+            color: white;
+            width: 150px;
         }
 
+
+        a{
+            color: white;
+          text-decoration: none;
+        }
         button:hover {
             background-color: rgb(241, 66, 66);
         }
@@ -63,8 +71,8 @@
             width: 1200px;
             height: 800px;
             border: solid 1px black;
-            background-color: transparent;
             border-radius: 2%;
+
         }
 
 
